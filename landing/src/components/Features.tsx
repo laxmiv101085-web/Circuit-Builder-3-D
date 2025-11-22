@@ -34,6 +34,9 @@ export default function Features() {
                     <p className="text-gray-600 max-w-2xl mx-auto">
                         From concept to reality, we provide the tools to make electronics easier to understand and build.
                     </p>
+                    <div className="mt-4 inline-block px-3 py-1 rounded-full bg-purple-100 text-purple-600 text-xs font-bold uppercase tracking-wider">
+                        Real Projects Coming Soon
+                    </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

@@ -67,7 +67,7 @@ export default function Hero() {
                         Build Smarter.
                     </h1>
                     <p className="text-lg text-gray-600 mb-8 max-w-lg leading-relaxed">
-                        Instant 3D models, labeled wiring, components list, and step-by-step assembly — designed specifically for electronics students and hobbyists.
+                        Instant 3D models, labeled wiring, component list, and step-by-step assembly — built for electronics students.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4">

@@ -58,29 +58,37 @@ export default function Showcase3D() {
                             <span className="text-blue-600">3D Printing</span>
                         </h2>
                         <p className="text-lg text-gray-600 mb-8">
-                            Don't just build on a breadboard. Export a custom-fitted enclosure for your circuit and print it in reality.
+                            We design a compact rectangular enclosure for the 555 timer blinker, with cutouts for the power connector and LED.
+                            The enclosure can be exported as STL, sliced in Cura, and 3D-printed.
                         </p>
 
                         <div className="space-y-6 mb-8">
                             <div className="flex items-start gap-4">
                                 <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0 text-blue-600 font-bold">1</div>
                                 <div>
-                                    <h4 className="font-semibold text-gray-900">Export STL</h4>
-                                    <p className="text-sm text-gray-500">One-click export compatible with all slicers.</p>
+                                    <h4 className="font-semibold text-gray-900">Printer</h4>
+                                    <p className="text-sm text-gray-500">Creality Ender-3</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
                                 <div className="w-10 h-10 rounded-full bg-cyan-100 flex items-center justify-center flex-shrink-0 text-cyan-600 font-bold">2</div>
                                 <div>
-                                    <h4 className="font-semibold text-gray-900">Print It</h4>
-                                    <p className="text-sm text-gray-500">Optimized for Ender-3 and Prusa printers. ~3h print time.</p>
+                                    <h4 className="font-semibold text-gray-900">Material</h4>
+                                    <p className="text-sm text-gray-500">PLA, 0.2 mm layer height</p>
+                                </div>
+                            </div>
+                            <div className="flex items-start gap-4">
+                                <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center flex-shrink-0 text-indigo-600 font-bold">3</div>
+                                <div>
+                                    <h4 className="font-semibold text-gray-900">Print Time</h4>
+                                    <p className="text-sm text-gray-500">~3 hours</p>
                                 </div>
                             </div>
                         </div>
 
                         <button className="px-6 py-3 rounded-xl bg-gray-900 text-white font-medium hover:bg-gray-800 transition-colors flex items-center gap-2">
                             <Download className="w-5 h-5" />
-                            Download Sample STL
+                            Download Sample STL (placeholder)
                         </button>
                     </motion.div>
 
