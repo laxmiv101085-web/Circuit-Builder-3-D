@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
-    "dev": "concurrently \"npm run server --prefix backend\" \"npm run dev --prefix frontend\""
+    "dev": "npm run dev --prefix landing",
+    "install-landing": "cd landing && npm install"
   },
   "keywords": [],
   "author": "",
